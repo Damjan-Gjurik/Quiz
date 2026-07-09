@@ -28,7 +28,26 @@
 
 ## 📷 Screenshots
 
-*Screenshots will be added soon.*
+### 🏠 Home Page
+
+![Home Page](Screenshots/Home-page.png)
+
+---
+### 💻 Enter Data
+
+![Movie Details](Screenshots/enter-data.png)
+
+---
+
+### ❓ Questions
+
+![My Ratings](Screenshots/Questions.png)
+
+---
+
+### ✅ Final result
+
+![My Watchlist](Screenshots/Final-result.png)
 
 ---
 
@@ -66,8 +85,6 @@ Quiz
 ├── README.md
 └── LICENSE
 ```
-
----
 
 ---
 
