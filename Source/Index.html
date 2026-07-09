@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="container">
+        <div id="intro">
+            <h1>Добредојде во квизот наречен</h1>
+            <h2>The Impossible Quiz</h2>
+            <p>Одговори на овие 10 прашања и провери го своето знаење.</p>
+            <button id="prodolzi">Продолжи</button>
+        </div>
+        
+        
+        <div id="start" class="hidden">
+            <form id="startForm">
+                <h1>The impossible quiz</h1>
+                <label>Корисничко име:
+                <input type="text" id="username" name="I" placeholder="Внеси корисничко име" required><br><br>
+                </label>
+                <label>Година на раѓање:
+                <input type="number" id="god" name="G" required><br><br>
+                </label>
+                <button type="submit" id="pocni">Започни квиз</button>
+            </form>
+        </div>
+
+        <div id="quiz" class="hidden">
+            <h1>The impossible quiz</h1>
+            <div class="user-info">Корисник: <span id="displayName"></span></div>
+            <div id="question" class="question"></div>
+            <div id="answers"></div>
+            <button id="sledno">Следно</button>
+        </div>
+
+        <div id="result" class="hidden">
+            <h1>The impossible quiz</h1>
+            <h2>Краен резултат</h2>
+            <p id="finalResult"></p>
+            <button id="restart">Назад на почеток</button>
+        </div>
+        <div class="developer-info">
+            👨‍💻 Developed by <strong>Дамјан Ѓуриќ</strong><br>
+            🛠 HTML • CSS • JavaScript
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
