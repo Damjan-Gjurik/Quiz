@@ -1,9 +1,9 @@
 # 📝 Quiz
-Проектот Quiz е веб апликација за решавање квизови и проверка на знаење. Проектот е изработен како училишен проект со цел практична примена и усовршување на знаењата од веб програмирање.
+Quiz is a web application for solving questions and testing your knowledge. This project is made as a school project in order to improve my web programming skills.
 
 ---
 
-## 📌 Главни функции
+## 📌 Main features
 
 - User registration and login
 - Multiple quiz categories
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠 Користени технологии
+## 🛠 Used Technologies
 
 - HTML5
 - CSS3
@@ -51,13 +51,13 @@
 
 ---
 
-## ⚙ Инсталација
+## ⚙ Installation
 
-1. Клонирај го репозиториумот.
-2. Копирај ја папката во xampp/htdocs.
-3. Стартувај ги Apache и MySQL преку XAMPP.
-4. Импортирај ја базата kviz_podatoci.sql во phpMyAdmin.
-5. Отвори:
+1. Copy the repository.
+2. Paste it to xampp/htdocs.
+3. Start Apache and MySQL through XAMPP.
+4. Import the database kviz_podatoci.sql to phpMyAdmin.
+5. Open:
 http://localhost/Quiz
 
 ---
